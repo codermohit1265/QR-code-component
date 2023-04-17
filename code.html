@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR CODE</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: hsla(195, 43%, 91%, 0.72);
+        font-family: 'Outfit', sans-serif;
+    }
+    .qr_code {
+	height: 484px;
+	width: 335px;
+	background-color: white;
+	position: absolute;
+	top: 19%;
+	left: 38%;
+    border-radius: 12px;
+}
+.qr_code img {
+	height: 290px;
+	width: 302px;
+	border-radius: 8px;
+}
+.imgqr {
+	padding: 28px;
+	margin-left: -12px;
+	margin-top: -14px;
+}
+.image_content{
+    
+
+margin-left: -8px;
+}
+.image_content h1{
+    font-size: 22px;
+    font-weight: bolder;
+    padding: 10px;
+    margin-top: -25px;
+    text-align: center;
+    
+}
+.image_content p{
+    font-size: 16px;
+    text-align: center;
+    color:  hsl(210, 8%, 56%);
+}
+@media (max-width:650px){
+    .qr_code {
+	position: static;
+	 height: 413px; 
+	width: 85%;
+	margin: 56px;
+    margin-left: 24px;
+}
+.qr_code img {
+	height: 230px;
+	width: 236px;
+	border-radius: 8px;
+	margin-left: 13px;
+	margin-top: 10px;
+}
+    .img{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .imgqr {
+	padding: 0;
+	margin-left: 0;
+	margin-top: -14px;
+}
+.image_content{
+    
+padding: 2px;
+margin-left: 0px;
+}
+.image_content h1{
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 0px;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+.image_content p{
+    font-size: 15px;
+    text-align: center;
+    color:  hsl(210, 8%, 56%);
+    margin-top: 10px;
+}
+}
+
+
+</style>
+<body>
+    <div class="qr_code">
+        <div class="imgqr">
+   <img src="image-qr-code.png" alt="">
+</div>
+   
+    <div class="image_content">
+        <h1>Improve your front-end skills by building projects</h1>
+        <p> Scan the QR code to visit Frontend <br>Mentor and take your coding skills to <br>the next level</p>
+    </div>
+</div>
+    
+    
+</body>
+</html>
